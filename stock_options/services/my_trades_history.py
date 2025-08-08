@@ -1,4 +1,7 @@
 import pandas as pd
 
-my_trades = pd.read_csv('my_trades.csv')
+
+
+def analyze_my_trades():
+    my_trades = pd.read_csv('C:\\Users\\shahh\\Documents\\whatever\\my_trades\\tradesdownload.csv')
 
