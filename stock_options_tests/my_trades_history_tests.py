@@ -12,3 +12,5 @@ class TestMyTradesHistory:
     def test_analyze_my_trades(self):
         my_trades = analyze_my_trades()
         assert my_trades.price.iloc[0] == 145.75
+
+    def test_
